@@ -19,6 +19,8 @@ namespace TecEvaVMind
 {
     public class Startup
     {
+        readonly string OrigenesValidos = "_consumidoresPermitidos";
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -35,7 +37,16 @@ namespace TecEvaVMind
 
             services.AddMediatR(typeof(Aplicacion.Monedas.ConsultarCotizacion).Assembly);
 
-            services.AddControllers();
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: OrigenesValidos,
+                                  builder =>
+                                  {
+                                      builder.WithOrigins("http://localhost:4200");
+                                  });
+            });
+
+            services.AddControllers();            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,12 +61,14 @@ namespace TecEvaVMind
 
             app.UseRouting();
 
+            app.UseCors(OrigenesValidos);
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-            });
+            });            
         }
     }
 }
