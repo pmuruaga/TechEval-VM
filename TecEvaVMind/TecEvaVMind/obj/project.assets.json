@@ -5105,11 +5105,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pmuru\\source\\repos\\TecEvaVMind\\TecEvaVMind\\TecEvaVMind.csproj",
+      "projectUniqueName": "C:\\Users\\pmuru\\source\\repos\\TEVM\\TecEvaVMind\\TecEvaVMind\\TecEvaVMind.csproj",
       "projectName": "TecEvaVMind",
-      "projectPath": "C:\\Users\\pmuru\\source\\repos\\TecEvaVMind\\TecEvaVMind\\TecEvaVMind.csproj",
+      "projectPath": "C:\\Users\\pmuru\\source\\repos\\TEVM\\TecEvaVMind\\TecEvaVMind\\TecEvaVMind.csproj",
       "packagesPath": "C:\\Users\\pmuru\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pmuru\\source\\repos\\TecEvaVMind\\TecEvaVMind\\obj\\",
+      "outputPath": "C:\\Users\\pmuru\\source\\repos\\TEVM\\TecEvaVMind\\TecEvaVMind\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5128,8 +5128,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\pmuru\\source\\repos\\TecEvaVMind\\Aplicacion\\Aplicacion.csproj": {
-              "projectPath": "C:\\Users\\pmuru\\source\\repos\\TecEvaVMind\\Aplicacion\\Aplicacion.csproj"
+            "C:\\Users\\pmuru\\source\\repos\\TEVM\\TecEvaVMind\\Aplicacion\\Aplicacion.csproj": {
+              "projectPath": "C:\\Users\\pmuru\\source\\repos\\TEVM\\TecEvaVMind\\Aplicacion\\Aplicacion.csproj"
             }
           }
         }

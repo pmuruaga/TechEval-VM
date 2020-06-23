@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yoLUkzE2PJaQzqGWecvKw5Xx5Gl9J2YUSGPKdfwlflHuizYJl5yIMEUWcNa7m7QaOi/RWAbix6dT9i979YMbUg==",
+  "dgSpecHash": "mpoteYeUzG8oKOC9jk4Dq9RzPLue65TEcfCoz0PgfbHAQwAjm2e8GSyTyYPfP1tHDOGWNU+p3/DtM97LpamR1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pmuru\\source\\repos\\TecEvaVMind\\Persistencia\\Persistencia.csproj",
+  "projectFilePath": "C:\\Users\\pmuru\\source\\repos\\TEVM\\TecEvaVMind\\Persistencia\\Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pmuru\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\pmuru\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

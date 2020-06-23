@@ -5015,11 +5015,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pmuru\\source\\repos\\TecEvaVMind\\Aplicacion\\Aplicacion.csproj",
+      "projectUniqueName": "C:\\Users\\pmuru\\source\\repos\\TEVM\\TecEvaVMind\\Aplicacion\\Aplicacion.csproj",
       "projectName": "Aplicacion",
-      "projectPath": "C:\\Users\\pmuru\\source\\repos\\TecEvaVMind\\Aplicacion\\Aplicacion.csproj",
+      "projectPath": "C:\\Users\\pmuru\\source\\repos\\TEVM\\TecEvaVMind\\Aplicacion\\Aplicacion.csproj",
       "packagesPath": "C:\\Users\\pmuru\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pmuru\\source\\repos\\TecEvaVMind\\Aplicacion\\obj\\",
+      "outputPath": "C:\\Users\\pmuru\\source\\repos\\TEVM\\TecEvaVMind\\Aplicacion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5038,11 +5038,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\pmuru\\source\\repos\\TecEvaVMind\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Users\\pmuru\\source\\repos\\TecEvaVMind\\Dominio\\Dominio.csproj"
+            "C:\\Users\\pmuru\\source\\repos\\TEVM\\TecEvaVMind\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\pmuru\\source\\repos\\TEVM\\TecEvaVMind\\Dominio\\Dominio.csproj"
             },
-            "C:\\Users\\pmuru\\source\\repos\\TecEvaVMind\\Persistencia\\Persistencia.csproj": {
-              "projectPath": "C:\\Users\\pmuru\\source\\repos\\TecEvaVMind\\Persistencia\\Persistencia.csproj"
+            "C:\\Users\\pmuru\\source\\repos\\TEVM\\TecEvaVMind\\Persistencia\\Persistencia.csproj": {
+              "projectPath": "C:\\Users\\pmuru\\source\\repos\\TEVM\\TecEvaVMind\\Persistencia\\Persistencia.csproj"
             }
           }
         }

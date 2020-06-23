@@ -1,0 +1,15 @@
+<div>
+<h3>Comprar Divisas</h3>
+<div>
+    <div><label>UserId</label><input type="text" [formControl]="userIdControl" /></div>
+    <div><label>Codigo Moneda</label><input #text type="text" [formControl]="monedaControl" /></div>
+    <div><label>Monto en Pesos</label><input #text type="text" [formControl]="montoControl" /></div>
+    <div><label id="resultado"></label></div>    
+    <input type="button" (click)="ComprarDiviza()" value="Comprar" />
+</div>
+<div><app-loading-spinner *ngIf="showSpinner"></app-loading-spinner></div>
+</div>
+<div>
+    <h3>Cotizacion Actual</h3>
+    <app-cotizaciones></app-cotizaciones>
+</div>

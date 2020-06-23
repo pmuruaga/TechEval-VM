@@ -1,0 +1,11 @@
+<h2>{{ nombreMoneda }}</h2>
+<div>
+    <div>Compra: {{ cotizacion.precioCompra }}</div>
+    <div>Venta: {{ cotizacion.precioVenta }}</div>
+</div>  
+<div>
+    <button class="btn btn-warning" type="reset" (click)="ActualizaCotizaciones()">
+        <i class="fas fa-sync-alt"></i>
+    </button>
+</div>
+<div><app-loading-spinner *ngIf="showSpinner"></app-loading-spinner></div>

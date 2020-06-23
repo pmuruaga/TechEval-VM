@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dDT1bTkSqgCifYpbio09nhmUSlQ2KsWahf8i8OlUcziudt+LjJ7ojurXy5zc5o+nWf1kLBLYiRKI5pfxM+fiSw==",
+  "dgSpecHash": "sHDZIKqzu2KgRTRT8bsqsO6qXR4fI6kVpaVnnfYSuZMzuXQ5CBUPeMIuX6NhHuxrb2E+vUZiD56/+ZEA6/dikQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pmuru\\source\\repos\\TecEvaVMind\\Dominio\\Dominio.csproj",
+  "projectFilePath": "C:\\Users\\pmuru\\source\\repos\\TEVM\\TecEvaVMind\\Dominio\\Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

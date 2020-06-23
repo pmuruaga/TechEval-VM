@@ -42,8 +42,13 @@ namespace TecEvaVMind
                 options.AddPolicy(name: OrigenesValidos,
                                   builder =>
                                   {
-                                      builder.WithOrigins("http://localhost:4200");
-                                  });
+                                      builder.AllowAnyMethod();
+
+                                      builder.WithOrigins("http://localhost:4200")
+                                        .AllowAnyMethod()
+                                        .AllowAnyHeader()
+                                        .AllowCredentials();
+                                  });                                              
             });
 
             services.AddControllers();            
