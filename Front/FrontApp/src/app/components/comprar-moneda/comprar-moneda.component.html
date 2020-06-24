@@ -6,6 +6,7 @@
     <div><label>Monto en Pesos</label><input #text type="text" [formControl]="montoControl" /></div>
     <div><label id="resultado"></label></div>    
     <input type="button" (click)="ComprarDiviza()" value="Comprar" />
+    <div><label>{{ mensajeResultado }}</label></div>
 </div>
 <div><app-loading-spinner *ngIf="showSpinner"></app-loading-spinner></div>
 </div>

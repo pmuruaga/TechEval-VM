@@ -16,6 +16,8 @@ export class ComprarMonedaComponent implements OnInit {
 
   showSpinner: boolean = true;
 
+  mensajeResultado: string = '';
+
   constructor(protected operacionesService: OperacionesService) { 
     
   }
@@ -33,10 +35,12 @@ export class ComprarMonedaComponent implements OnInit {
       data => {
         console.log(data);
         this.showSpinner = false;
+        this.mensajeResultado = "Transacción Realizada";
       },
       err => {
         console.log(err);
         this.showSpinner = false;
+        this.mensajeResultado = "Fallo la Compra";
       }
     );
 
